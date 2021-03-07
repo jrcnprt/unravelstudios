@@ -11,7 +11,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
-    <title>PHPJabbers.com | Free Online Store Website Template</title>
+    <title>Unravel Studios | Test</title>
 
     <!-- Bootstrap core CSS -->
     <link href="resources/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -52,7 +52,6 @@
                 </li> 
                 <li class="nav-item"><a class="nav-link" href="{{ route('shop') }}">Shop</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{ route('cart.index') }}">Cart</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{ route('order.index') }}">Orders</a></li>
                 <!-- Authentication Links -->
                 @guest
                     <li class="nav-item">
