@@ -92,20 +92,20 @@
       <div class="owl-banner owl-carousel">
         <div class="banner-item-01">
           <div class="text-content">
-            <h4>Find your car today!</h4>
-            <h2>Lorem ipsum dolor sit amet</h2>
+            <h4>Add to cart today!</h4>
+            <h2>Shop Now!</h2>
           </div>
         </div>
         <div class="banner-item-02">
           <div class="text-content">
             <h4>Fugiat Aspernatur</h4>
-            <h2>Laboriosam reprehenderit ducimus</h2>
+            <h2>Sample header Text</h2>
           </div>
         </div>
         <div class="banner-item-03">
           <div class="text-content">
             <h4>Saepe Omnis</h4>
-            <h2>Quaerat suscipit unde minus dicta</h2>
+            <h2>Sample header Text</h2>
           </div>
         </div>
       </div>
@@ -118,7 +118,6 @@
           <div class="col-md-12">
             <div class="section-heading">
               <h2>Featured Products</h2>
-              <a href="products.html">view more <i class="fa fa-angle-right"></i></a>
             </div>
           </div>
           @foreach($products as $product)
@@ -142,7 +141,7 @@
         <div class="row">
           <div class="col-md-12">
             <div class="inner-content">
-              <p>Copyright © 2021 Jerica Naparate</p>
+              <p>Copyright © 2021 Unravel Studios</p>
             </div>
           </div>
         </div>

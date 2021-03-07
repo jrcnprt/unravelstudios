@@ -11,7 +11,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
-    <title>PHPJabbers.com | Free Online Store Website Template</title>
+    <title>Unravel Studios | Test</title>
 
     <!-- Bootstrap core CSS -->
     <link href="resources/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -52,7 +52,6 @@
                 </li> 
                 <li class="nav-item"><a class="nav-link" href="{{ route('shop') }}">Shop</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{ route('cart.index') }}">Cart</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{ route('order.index') }}">Orders</a></li>
                 @guest
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
@@ -108,15 +107,6 @@
           </div>
           @endforeach
 
-          <div class="col-md-12">
-            <ul class="pages">
-              <li><a href="#">1</a></li>
-              <li class="active"><a href="#">2</a></li>
-              <li><a href="#">3</a></li>
-              <li><a href="#">4</a></li>
-              <li><a href="#"><i class="fa fa-angle-double-right"></i></a></li>
-            </ul>
-          </div>
         </div>
       </div>
     </div>
@@ -126,7 +116,7 @@
         <div class="row">
           <div class="col-md-12">
             <div class="inner-content">
-              <p>Copyright © 2020 Company Name - Template by: <a href="https://www.phpjabbers.com/">PHPJabbers.com</a></p>
+              <p>Copyright © 2021 Unravel Studios</p>
             </div>
           </div>
         </div>

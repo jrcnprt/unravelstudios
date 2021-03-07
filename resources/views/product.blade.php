@@ -52,7 +52,6 @@
                 </li> 
                 <li class="nav-item"><a class="nav-link" href="{{ route('shop') }}">Shop</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{ route('cart.index') }}">Cart</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{ route('order.index') }}">Orders</a></li>
                 @guest
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
@@ -203,7 +202,7 @@
         <div class="row">
           <div class="col-md-12">
             <div class="inner-content">
-              <p>Copyright © 2020 Company Name - Template by: <a href="https://www.phpjabbers.com/">PHPJabbers.com</a></p>
+              <p>Copyright © 2021 Unravel Studios</p>
             </div>
           </div>
         </div>
